@@ -11,7 +11,7 @@ find_package(robot_state_publisher REQUIRED)
 find_package(rviz2 REQUIRED)
 find_package(xacro REQUIRED)
 
-install(DIRECTORY launch meshes urdf DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY meshes urdf DESTINATION share/${PROJECT_NAME})
 
 
 if(BUILD_TESTING)
